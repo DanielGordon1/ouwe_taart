@@ -133,7 +133,7 @@ ul.icon1{
 .icon1 li:hover > a {
     color: #fafafa;
 }
-*html .icon1 li a:hover { /* IE6 only */
+.icon1 li a:hover { /* IE6 only */
     color: #fafafa;
 }
 .icon1 ul {
@@ -647,7 +647,7 @@ i.round{
     color:#000;
 }
 .top-about p {
-    font-size:1.em;
+    font-size:1em;
     color:#333;
     line-height:1.7em;
     margin:1em 0 2em;
@@ -1828,7 +1828,7 @@ span.menu {
 }
 
 .team-top p {
-    font-size 0.8em;
+  font-size: 0.8em;
 }
 
 .logo img {
@@ -2202,7 +2202,7 @@ li.etalage_small_thumbs {
 }
 
 .about-top .img-responsive{
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .about-top .row {

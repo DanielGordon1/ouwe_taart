@@ -73,16 +73,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 .top-nav span.menu{
     display:none;
 }
-.banner{
-    background:url(/assets/banner-final1.jpg) no-repeat center;
-    width:100%;
-    min-height:700px;
-    background-size:cover;
-    display:block;
-    text-align: center;
-    padding:14em 0 0;
-    position:relative;
-}
+
 .banner-in{
     min-height: 108px;
     padding: 0;
@@ -100,6 +91,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   margin: 1em auto;
 }
 a.down {
+   margin-bottom: 40px;
   padding: 8em 0 0;
   display:inline-block;
 }
@@ -1536,7 +1528,7 @@ p.footer-class a:hover{
     height: 52px;
     border: none;
     text-indent: 100%;
-    background: url('../images/up.png') no-repeat 0px 0px;
+    background: url('/assets/up.png') no-repeat 0px 0px;
 }
 /*--responsive--*/
 @media(max-width:1440px){

@@ -34,7 +34,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'figaro'
+
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
+
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 source 'https://rails-assets.org' do

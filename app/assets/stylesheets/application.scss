@@ -10,11 +10,16 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
-@import "style";
-@import "etalage";
+@import "bootstrap";
+// @import "config/bootstrap_variables";
+
+// New css
 @import "components/banner";
 @import "components/avatar";
+@import "components/login_form";
+
+// Legacy css
+@import "style";
+@import "etalage";
 

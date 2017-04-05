@@ -1,6 +1,14 @@
-<% @partners.each do |partner| %>
-<% link_to partner.website_url%>
-<%= cl_image_tag partner.logo_url %>
-<%= partner.relation_type %>
-<% end %>
+<div class="partners">
+<h3 class="text-center"> Wij werken samen met </h2>
+  <div class="container-fluid">
+    <div class="row">
+      <% @partners.each do |partner| %>
+        <div class=" col-md-4 partner-logo img-fluid">
+          <%= link_to cl_image_tag(partner.logo_url), partner.website_url %>
+        </div>
+        <p><%= partner.relation_type %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
 

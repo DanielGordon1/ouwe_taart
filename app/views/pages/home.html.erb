@@ -1,37 +1,16 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-                <script type="text/javascript">
-                    jQuery(document).ready(function($) {
-                        $(".scroll").click(function(event){
-                            event.preventDefault();
-                            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-                        });
-                    });
-                </script>
-<!--//slider-script-->
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+</script>
 
-<!--header-->
-<div class="header">
-    <div class="container">
-        <div class="header-top">
-            <div class="logo">
-                <a href="/"><%= image_tag "ouwe_taart_logo.png" %></a>
-            </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
-    <div class="banner">
-        <div class="container">
-            <h1>Ouwe Taart</h1>
-            <p><i>De taart van oma is iets magisch.</i></br>
-            Iets waar nagenoeg iedereen nostalgische gevoelens bij krijgt. Herbeleef de ambachtelijke smaak van oma's
-            taart met behulp van Ouwe Taart.</p>
-            <a href="#team" class="scroll down"><%= image_tag "arr" %></a>
-        </div>
-    </div>
-</div>
 
+<%= render "banner" %>
 <%= render "team" %>
 <%= render "about" %>
 <%= render "partners" %>

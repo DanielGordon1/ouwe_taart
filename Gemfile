@@ -56,6 +56,8 @@ gem 'remotipart', github: 'mshibuya/remotipart'
 
 gem 'rails_admin', '>= 1.0.0.rc'
 
+gem 'gmaps4rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

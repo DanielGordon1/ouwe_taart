@@ -1,0 +1,13 @@
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    overflow: hidden;
+    width: 52px;
+    height: 52px;
+    border: none;
+    text-indent: 100%;
+    background: image-url("/assets/up.png") no-repeat 0px 0px;
+}

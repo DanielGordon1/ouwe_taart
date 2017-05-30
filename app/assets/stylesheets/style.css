@@ -92,9 +92,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   margin: 1em auto;
 }
 a.down {
-   margin-bottom: 40px;
-  padding: 8em 0 0;
-  display:inline-block;
+  margin: 30px;
 }
 /* start icon styles */
 .sub-icon1 h3{

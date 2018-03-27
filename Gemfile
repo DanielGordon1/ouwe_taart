@@ -54,7 +54,7 @@ gem 'devise'
 
 gem 'remotipart', github: 'mshibuya/remotipart'
 
-gem 'rails_admin', '~> 1.3.0'
+gem 'rails_admin'
 
 gem 'gmaps4rails'
 
